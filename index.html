@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Reconstructing Edit Distance</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" alt="jb logo">
+    <p class="header__p"> Упрощение учёта времени в YouTrack-e </p>
+  </header>
+  <script type="text/javascript" src="Levenshtein_dist.js"></script>
+
+  <main>
+    <div class="task" name="tast">
+      <p class="task__title">Введите две строки</p>
+      <input type="text" name="line1" value="" id="line1" class="task__input"></input>
+      <input type="text" name="line2" value="" id="line2" class="task__input"></input>
+      <button type="button" name="button" class="task__button" onclick="solver()">Рассчитать</button>
+      <div class="task__ans"></div>
+    </div>
+
+  </main>
+
+
+</body>
+</html>
